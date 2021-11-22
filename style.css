@@ -1,133 +1,15 @@
-:root {
-    --background: rgba(85,214,170,.85);
-}
-
-
-
-body {
-    margin:0;
-    background: rgb(255, 255, 255);
-    font-family:"work Sans" , sans-serif;
-    font-weight: 400;
-    text-align: center;
-}
-
-.content{
-    height: 100vh;
-    background-color: #333;
-    background-blend-mode: multiply;
-    background-size: cover;
-    display:grid;
-    place-items:center;
-}
-
-
-header {
-    background: var(--background);
-    text-align: center;
-    position: fixed;
-    width: 100%;
-}
-
-nav{
-
-    position: absolute;
-    text-align:left;
-    top:100%;
-    left: 0;
-    background: var(--background);
-    width: 100%;
-    transform:scale(1,0);
-    transform-origin:top;
-    transition: transform 400ms ease-in-out;
-}
-
-.nav-toggle {
-    display:none;
-}
-.nav-toggle-label{
-    position:absolute;
-    top: 0;
-    left: 0;
-    margin-left: 1em;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-    display:block;
-    background:white;
-    height:2px;
-    width:2em;
-    border-radius:2px;
-    position:relative;
-
-}
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-    position:absolute;
-    content: '';
-
-}
-.nav-toggle-label span::before{
-
-    bottom:7px;
-}
-.nav-toggle-label span::after{
-
-    top:7px;
-}
-
-
-
-nav ul{
-    margin:0;
-    padding:0;
-    list-style:none;
-}
-
-nav li {
-    margin-bottom:1em;
-    margin-left: 1em;
-}
-
-nav a {
-    color: white;
-    text-decoration:none;
-    font-size: 1.2rem;
-    text-transform:uppercase;
-    opacity:0;
-    transition: opacity 150ms ease-in-out 250ms;
-}
-
-nav a:hover {
-    color: #000;
-}
-
-.nav-toggle:checked ~ nav {
-    transform:scale(1,1)
-}
-
-.nav-toggle:checked ~ nav a {
-    opacity:1;
-    transition:opacity 250ms ease-in-out 250ms;
-}
-
-
-
-.textshadow{
-    text-shadow:
-    0.025em 0.025em 0 yellow,
-    0.05em 0.05em 0 green,
-    0.075em 0.075em 0 rgb(0, 0, 0);
-}
-
-
 html {
     scroll-behavior: smooth;
   }
 
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
 
-
+main {
+    margin-top: 60px;
+}
