@@ -2,15 +2,85 @@ html {
     scroll-behavior: smooth;
   }
 
+body{
+    background-color: rgb(255, 255, 255);
+}
+
 .header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: flex;
     padding: 0 10%;
 }
 
 main {
     margin: 60px 10% 0 10%;
+}
+
+.dreggman{
+    display: flex;
+    justify-content: center;
+
+    margin-top:  10%;
+    margin-right: 10%;
+
+
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-top:  100px;
+    margin-bottom: 20em;
+}
+
+.inhalt {
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+
+.überschrift{
+    margin-top: 10%;
+}
+
+a{
+    margin-top: 3px;
+
+    color:rgb(24, 115, 131);
+}
+
+a:hover {
+
+    color: rgb(0, 0, 0);
+}
+.voll1{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.voll2{
+    text-align: left;
+
+}
+.coll1{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.coll2{
+    text-align: left;
+
+}
+
+.haupt {
+    margin: 60px 10% 0 10%;
+    padding:60px 10% 0 10%;
+   
 }
