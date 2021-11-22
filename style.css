@@ -8,8 +8,9 @@ html {
     width: 100%;
     background-color: white;
     display: flex;
+    padding: 0 10%;
 }
 
 main {
-    margin-top: 60px;
+    margin: 60px 10% 0 10%;
 }
