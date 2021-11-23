@@ -32,6 +32,11 @@ main {
 
 }
 
+dregg.dreggman {
+width: 30%;
+    height: auto;
+}
+
 .intro {
     display: flex;
     justify-content: center;
