@@ -26,14 +26,12 @@ main {
     margin-top:  10%;
     margin-right: 20%;
     margin-left: 10%;
-    width: 30%,
-    height: auto;
 
 
 }
 
 dregg.dreggman {
-width: 30%;
+    width: 30%;
     height: auto;
 }
 
@@ -98,7 +96,3 @@ a:hover {
 
 }
 
-dregg.resize {
-    height: 30%;
-    width: auto;
-}
