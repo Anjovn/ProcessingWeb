@@ -59,12 +59,13 @@ a:hover {
 .voll1{
     display: flex;
     justify-content: center;
+    margin: 5%;
 
     
 }
 
 .voll2{
-
+    text-align: center;
 }
 .coll1{
     display: flex;
