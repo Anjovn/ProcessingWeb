@@ -89,3 +89,8 @@ a:hover {
     margin-bottom: 10em;
 
 }
+
+dregg.resize {
+    height: auto;
+    width: auto;
+}
