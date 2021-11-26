@@ -4,6 +4,10 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+h3 {
+    margin-bottom: 0;
+}
+
 .header {
     position: fixed;
     top: 0;
