@@ -25,7 +25,7 @@ main {
     margin: 10% auto 0 auto;
 }
 
-dregg.dreggman {
+.dreggman__img {
     width: 100%;
     display: block;
 }
