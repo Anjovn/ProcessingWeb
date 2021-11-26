@@ -21,16 +21,13 @@ main {
     display: flex;
     justify-content: center;
 
-    margin-top:  10%;
-    margin-right: 20%;
-    margin-left: 10%;
-
-
+    width: 30%;
+    margin: 10% auto 0 auto;
 }
 
 dregg.dreggman {
-    width: 30%;
-    height: auto;
+    width: 100%;
+    display: block;
 }
 
 .intro {
